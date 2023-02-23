@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uni.scss */
+.wrap.data-v-5a3791f0 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.wrap .background.data-v-5a3791f0 {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.wrap .topSwitch.data-v-5a3791f0 {
+  width: 100%;
+  height: 87.62rpx;
+  position: absolute;
+  top: 210.28rpx;
+  display: flex;
+  justify-content: center;
+}
+.wrap .topSwitch ._li.data-v-5a3791f0 {
+  width: 306.66rpx;
+  height: 85.86rpx;
+  margin-right: 25.05rpx;
+  font-size: 47.31rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Microsoft PhagsPa';
+  font-style: normal;
+  font-weight: 400;
+}
+.wrap .topSwitch ._li.active.data-v-5a3791f0 {
+  background-color: #fff;
+  box-shadow: 0px 7.01rpx 7.01rpx rgba(0, 0, 0, 0.25);
+  border-radius: 26.28rpx;
+}
+.wrap .itemWrapper.data-v-5a3791f0 {
+  position: absolute;
+  left: 26.79rpx;
+  top: 336.45rpx;
+  width: 690.42rpx;
+  height: 1110.97rpx;
+}
+.wrap .itemWrapper image.data-v-5a3791f0 {
+  width: 690.42rpx;
+  height: 1126.75rpx;
+  /* background-color: pink; */
+}
+.wrap .itemWrapper .itemList.data-v-5a3791f0 {
+  position: absolute;
+  /* background-color: lightblue; */
+  top: 80.61rpx;
+  left: 84.36rpx;
+  width: 523.95rpx;
+  height: 750rpx;
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.wrap .itemWrapper .itemList ._li.data-v-5a3791f0 {
+  width: 131.42rpx;
+  height: 176.98rpx;
+  margin-right: 64.84rpx;
+  margin-bottom: 10.51rpx;
+  text-align: center;
+}
+.wrap .itemWrapper .itemList ._li image.data-v-5a3791f0 {
+  width: 131.42rpx;
+  height: 131.42rpx;
+  border-radius: 50%;
+}
+.wrap .itemWrapper .itemList ._li.data-v-5a3791f0:nth-child(3n) {
+  margin-right: 0;
+}
+.wrap .itemWrapper .dash.data-v-5a3791f0 {
+  width: 587.03rpx;
+  height: 1px;
+  position: absolute;
+  left: 57.83rpx;
+  bottom: 243.57rpx;
+}
+.wrap .itemWrapper .money.data-v-5a3791f0 {
+  width: 255.84rpx;
+  height: 119.16rpx;
+  background-color: #D9D9D9;
+  box-shadow: 0px 7.01rpx 7.01rpx rgba(0, 0, 0, 0.25);
+  border-radius: 52.57rpx;
+  position: absolute;
+  left: 345.21rpx;
+  bottom: 80.08rpx;
+  display: flex;
+  align-items: center;
+  font-size: 52.57rpx;
+  text-align: center;
+}
+.wrap .ps.data-v-5a3791f0 {
+  width: 609.81rpx;
+  height: 70.09rpx;
+  padding-left: 124.42rpx;
+  box-shadow: 0px 7.01rpx 7.01rpx rgba(0, 0, 0, 0.25);
+  border-radius: 26.28rpx;
+  background-color: #EFEFEF;
+  position: absolute;
+  left: 87.62rpx;
+  bottom: 50.82rpx;
+}
+.wrap .psTip.data-v-5a3791f0 {
+  position: absolute;
+  width: 138.43rpx;
+  height: 43.81rpx;
+  left: 105.14rpx;
+  top: 1514.01rpx;
+  font-size: 35.05rpx;
+}
+.wrap .microphone.data-v-5a3791f0 {
+  width: 35.05rpx;
+  height: 43.81rpx;
+  position: absolute;
+  left: 643.1rpx;
+  bottom: 61.33rpx;
+}
+

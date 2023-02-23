@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/registe/registe",
+    "pages/bookkeeping/bookkeeping",
+    "pages/ocr/ocr",
+    "pages/graph/graph",
+    "pages/bill/bill",
+    "pages/health/health"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

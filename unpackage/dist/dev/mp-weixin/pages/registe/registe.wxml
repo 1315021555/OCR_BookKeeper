@@ -1,0 +1,1 @@
+<view class="wrap"><view class="logo"></view><view class="infoList _ul"><view class="_li">用户名</view><view class="_li">密码</view><view class="_li">确认密码</view><view class="_li">手机号</view><view class="_li"><label class="_span">验证码</label><label class="getCode _span">获取验证码</label></view></view><view class="finish"><label class="_span">完成</label></view></view>

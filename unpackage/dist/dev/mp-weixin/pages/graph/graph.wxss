@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uni.scss */
+.wrap.data-v-65b1b238 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrap .flipper.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 192.76rpx;
+  width: 481.89rpx;
+  height: 1429.9rpx;
+  z-index: 2;
+}
+.wrap .flipper .backgroundImg.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.wrap .flipper .pay.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 60.3rpx;
+  left: 92.87rpx;
+  display: flex;
+}
+.wrap .flipper .pay ._p.data-v-65b1b238 {
+  font-size: 64.84rpx;
+}
+.wrap .flipper .pay image.more.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  width: 35.05rpx;
+  height: 26.28rpx;
+  position: absolute;
+  left: 164.72rpx;
+  top: 35.05rpx;
+}
+.wrap .flipper .tagList.data-v-65b1b238 {
+  width: 383.76rpx;
+  height: 411.8rpx;
+  position: absolute;
+  top: 160.19rpx;
+}
+.wrap .flipper .tagList ._li.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+.wrap .flipper .tagList ._li image.data-v-65b1b238 {
+  width: 383.76rpx;
+  height: 138.43rpx;
+}
+.wrap .flipper .tagList ._li ._p.data-v-65b1b238 {
+  position: absolute;
+  left: 247.08rpx;
+  top: 29.79rpx;
+  font-size: 52.57rpx;
+  color: #fff;
+}
+.wrap .flipper .anniversary.data-v-65b1b238 {
+  position: absolute;
+  top: 560.74rpx;
+  left: 50.82rpx;
+  width: 306.66rpx;
+  height: 325.93rpx;
+}
+.wrap .flipper .anniversary .anniImg.data-v-65b1b238 {
+  width: 100%;
+  height: 100%;
+}
+.wrap .flipper .anniversary ._p.data-v-65b1b238 {
+  font-size: 61.33rpx;
+  color: #fff;
+  position: absolute;
+  top: 129.67rpx;
+  left: 61.33rpx;
+}
+.wrap .flipper .text.data-v-65b1b238 {
+  width: 362.73rpx;
+  height: 415.51rpx;
+  position: absolute;
+  top: 946.26rpx;
+  left: 38.55rpx;
+  overflow: hidden;
+}
+.wrap .flipper .text .dotLine.data-v-65b1b238 {
+  width: 362.73rpx;
+  margin-bottom: 60.36rpx;
+}
+.wrap .folded.data-v-65b1b238 {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  transition: 0.3s ease-in-out;
+}
+.wrap .folded image.backgroundImg.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+}
+.wrap .folded .pay.data-v-65b1b238 {
+  transition: 0.3s ease-in-out;
+  -webkit-transform: translateX(170rpx);
+          transform: translateX(170rpx);
+}
+.wrap .folded .pay image.data-v-65b1b238 {
+  display: none;
+}
+.wrap .folded .tagList ._li.active.data-v-65b1b238 {
+  transition: all 0.3s ease-in-out;
+}
+.wrap .main.data-v-65b1b238 {
+  /* z-index: 3; */
+  position: absolute;
+  top: 254.09rpx;
+  left: 126.17rpx;
+  transition: all 1s;
+}
+.wrap .main .scrollWrap.data-v-65b1b238 {
+  width: 581.77rpx;
+  height: 70.09rpx;
+  white-space: nowrap;
+}
+.wrap .main .scrollWrap .weekItem.data-v-65b1b238 {
+  display: inline-block;
+  width: 145.44rpx;
+  height: 70.09rpx;
+  background: #DEDFD8;
+  box-shadow: 0px 7.01rpx 7.01rpx rgba(0, 0, 0, 0.25);
+  font-size: 35.05rpx;
+  text-align: center;
+  line-height: 70.09rpx;
+}
+.wrap .main .scrollWrap .active.data-v-65b1b238 {
+  background-color: #528090;
+  color: white;
+}
+.wrap .main .weekData.data-v-65b1b238 {
+  margin: 50.82rpx 0 0 162.85rpx;
+  width: 410.04rpx;
+  height: 723.71rpx;
+  background: #D9D9D9;
+  border-radius: 35.05rpx;
+}
+.wrap .main .leaderBoard ._p.data-v-65b1b238 {
+  width: 261.1rpx;
+  height: 77.1rpx;
+  margin: 31.54rpx 0 0 140.85rpx;
+  background: #528090;
+  box-shadow: 0px 7.01rpx 7.01rpx rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35.05rpx;
+  color: #DEDFD8;
+}
+.wrap .main .leaderBoard .leaderData.data-v-65b1b238 {
+  margin: 19.28rpx 0 0 162.85rpx;
+  width: 410.04rpx;
+  height: 352.22rpx;
+  background: #D9D9D9;
+  border-radius: 35.05rpx;
+}
+

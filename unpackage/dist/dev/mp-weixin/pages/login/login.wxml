@@ -1,0 +1,1 @@
+<view class="wrap"><view class="logo"></view><view class="loginMain"><view class="loginBtn"><label class="_span">短信验证码登录</label></view><view class="underLine"><navigator class="forgetPSW" url="../index/index">忘记密码 ？</navigator><navigator class="registe" url="../registe/registe">注册账号</navigator></view><view class="otherType"><label class="_span">其他方式登录</label></view></view></view>
